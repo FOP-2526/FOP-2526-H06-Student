@@ -63,7 +63,7 @@ public class MessageReceiver {
     /**
      * sends a message to the receiver.
      * the message must contain a token.
-     * the token must start with '<' and end with '>'.
+     * the token must start with '&lt;' (left angle bracket) and end with '&gt;' (right angle bracket)
      *
      * @param message the message to be sent
      */

@@ -30,7 +30,7 @@ public class TokenDictionary {
 
     /**
      * returns the string that corresponds to a token.
-     * the token must begin with a '<' and end with a '>'.
+     * the token must begin with a '&lt;' (left angle bracket) and end with a '&gt;' (right angle bracket).
      *
      * @param token the token to be looked up
      * @return the string that corresponds to the token
@@ -44,7 +44,7 @@ public class TokenDictionary {
 
     /**
      * registers a token within the dictionary.
-     * the token must not contain any '<' or '>'.
+     * the token must not contain any '&lt;' (left angle bracket) or '&gt;' (right angle bracket).
      *
      * @param token the token to register
      * @param text  the corresponding string
